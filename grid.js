@@ -441,7 +441,7 @@ var alertModal = function(message, onScreen) {
  */
 var windowMovedAlert = function(message, window) {
   if (window) {
-    alertModal(message, window.screen());
+    // alertModal(message, window.screen());
   }
 };
 
